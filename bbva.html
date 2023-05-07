@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BBVA</title>
+	<link rel="stylesheet" type="text/css" href="bbva.css">
+</head>
+<body>
+	<header>
+		<h1>BBVA</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#cuentas">Cuentas</a></li>
+			<li><a href="#prestamos">Préstamos</a></li>
+			<li><a href="#contacto">Contacto</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="inicio">
+			<h2>Inicio</h2>
+			<p>BBVA es un banco global con más de 150 años de historia y presencia en más de 30 países. Ofrecemos servicios financieros a particulares, empresas e instituciones.</p>
+		</section>
+		<section id="cuentas">
+			<h2>Cuentas</h2>
+			<ul>
+				<li>Cuenta Online sin comisiones</li>
+				<li>Cuenta Blue Joven</li>
+				<li>Cuenta Nómina</li>
+			</ul>
+		</section>
+		<section id="prestamos">
+			<h2>Préstamos</h2>
+			<ul>
+				<li>Préstamo Personal</li>
+				<li>Préstamo Coche</li>
+				<li>Préstamo Hogar</li>
+				<li>Préstamo Empresas</li>
+			</ul>
+		</section>
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<p>Puedes contactar con nosotros a través de nuestro teléfono de atención al cliente 902 22 44 66 o visitarnos en cualquiera de nuestras oficinas.</p>
+		</section>
+		<button onclick="mostrarChat()">Mostrar Chatbot</button>
+		<div id="chatbot" style="display: none;">
+			<iframe src="./cahtgpt.py"></iframe>
+		</div>
+		<script>
+			function mostrarChat() {
+			  var chatbot = document.getElementById("chatbot");
+			  if (chatbot.style.display === "none") {
+				chatbot.style.display = "block";
+			  } else {
+				chatbot.style.display = "none";
+			  }
+			}
+			</script>
+	</main>
+	<footer>
+		<p>© BBVA 2023</p>
+	</footer>
+
+	<script src="bbva.js"></script>
+</body>
+</html>

@@ -1,0 +1,222 @@
++ hola
+- Hola, Soy el BBVAbot, cuál de las siguientes informaciones le puedo ofrecer?\n
+^ - Miembros de directorio\n
+^ - Código de conducta\n
+^ - Página Web\n
+^ - Atención al cliente\n
+^ - Comisión por constancia del cliente\n
+^ - Comisión por transferencia\n
+^ - Comisión por mensajes Swift\n
+^ - Comisión por órdenes de pago recibida del exterior\n
+^ - Comisión por carta de presentación\n
+^ - Comisión por servicio de custodia internacional\n
+^ - Comisión para compra con Travellers Checks\n
+^ - Comisión para depósitos de cheques y travellers del exterior\n
+
+! var codigo= Código de conducta\n\n
+^ BBVA establece valores y principios éticos que guían su actuación en el ámbito empresarial y social.\n
+^ Como integridad, el respeto, la transparencia y la responsabilidad corporativa.\n
+^ Además, se enfoca en promover la cultura ética entre sus empleados y fomentar relaciones comerciales justas y equitativas con sus clientes y proveedores.\n
+
+! var conducta = Código de conducta\n\n
+^ BBVA establece valores y principios éticos que guían su actuación en el ámbito empresarial y social.\n
+^ Como integridad, el respeto, la transparencia y la responsabilidad corporativa.\n
+^ Además, se enfoca en promover la cultura ética entre sus empleados y fomentar relaciones comerciales justas y equitativas con sus clientes y proveedores.\n
+
+! var atencion = Llámanos al:\n\n
+^ 01 595-0000\n\n
+^ O visítanos de:\n
+^ 9am a 6pm Lunes a Viernes\n
+^ 9am a 12pm Sábados\n
+
+! var cliente = Llámanos al:\n\n
+^ 01 595-0000\n
+
+! var constancia = Comisión por constancia\n\n
+^ S/ 20.00\n
+
+! var transferencia = Comisión por transferencia\n\n
+^  
+^ - Otra localidad\n
+^ 0.50%\n
+^ Mínimo: S/7.50\n
+^ Máximo:S/350.00\n\n
+^  
+^ - Interbancario\n
+^ S/20.00\n
+^ Importes mínimos a transferir: S/5,000 ó $2,000.\n\n
+^  
+^ S/2.00\n
+^ Gastos a cobrarse adicionalmente por cada transferencia, según horarios del BCR: hasta 15:00 horas.\n\n
+^  
+^ S/3.00\n
+^ Gastos a cobrarse adicionalmente por cada transferencia, según horarios del BCR: después de 15:00 horas.\n
+
+! var mensaje = Comisión estándar\n\n
+^ S/ 11.00\n
+
+! var mensajes = Comisión estándar\n\n
+^ S/ 11.00\n
+
+! var swift = Úsalo para identificar tu cuenta de forma única dentro del sistema financiero\n\n
+^ Comisión estándar
+^ S/ 11.00\n
+
+
+! var ordenes = Comisión de órdenes de pago\n\n
+^ S/ 22.00\n
+
+! var pago= Comisión de órdenes de pago\n\n
+^ S/ 22.00\n
+
+! var recibida = Comisión de órdenes de pago\n\n
+^ S/ 22.00\n
+
+! var exterior= Comisión de órdenes de pago\n\n
+^ S/ 22.00\n
+
+! var carta = Comisión por carta de presentación\n\n
+^ S/ 7.00\n
+
+! var servicio = Comisión por servicio de custodia internacional\n\n
+^ De $ 0.00 a $ 25'000,000.00 a 0.035%\n
+^ De $ 25'000,001.00 a $ 50'000,000.00 a 0.032%\n
+^ Más de $ 50'000,001.00 a 0.028%\n
+
+! var compra = Comisión por compra con Travellers Checks\n\n
+^ 1.00 %\n
+
+! var depositos = Comisión para depósitos de cheques y travellers del exterior\n\n
+^ 0.50 % con un mínimo de $ 12.00\n
+
+! var custodia = Comisión por servicio de custodia internacional\n\n
+^ De $ 0.00 a $ 25'000,000.00 a 0.035%\n
+^ De $ 25'000,001.00 a $ 50'000,000.00 a 0.032%\n
+^ Más de $ 50'000,001.00 a 0.028%\n
+
+! var internacional = Comisión por servicio de custodia internacional\n\n
+^ De $ 0.00 a $ 25'000,000.00 a 0.035%\n
+^ De $ 25'000,001.00 a $ 50'000,000.00 a 0.032%\n
+^ Más de $ 50'000,001.00 a 0.028%\n
+
+! var travellers = Comisión por compra con Travellers Checks\n\n
+^ 1.00 %\n
+
+! var checks = Comisión por compra con Travellers Checks\n\n
+^ 1.00 %\n
+
+! var cheques = Comisión para depósitos de cheques y travellers del exterior\n\n
+^ 0.50 % con un mínimo de $ 12.00\n
+
++ [*] codigo{weight=2}  [*]
+- <bot codigo>
+
++ [*] atencion{weight=4}  [*]
+- <bot atencion>
+
++ [*] cliente{weight=2}  [*]
+- <bot cliente>
+
++ [*] conducta{weight=2}  [*]
+- <bot conducta>
+
++ [*] constancia{weight=2}  [*]
+- <bot constancia>
+
++ [*] swift{weight=2}  [*]
+- <bot swift>
+
++ [*] transferencia{weight=4}  [*]
+- <bot transferencia>
+
++ [*] mensajes{weight=2}  [*]
+- <bot mensajes>
+
++ [*] mensaje{weight=2}  [*]
+- <bot mensaje>
+
++ [*] ordenes{weight=3}  [*]
+- <bot ordenes>
+
++ [*] carta{weight=2}  [*]
+- <bot carta>
+
++ [*] servicio{weight=3}  [*]
+- <bot servicio>
+
++ [*] compra{weight=2}  [*]
+- <bot compra>
+
++ [*] custodia{weight=2}  [*]
+- <bot custodia>
+
++ [*] depositos{weight=3}  [*]
+- <bot depositos>
+
++ [*] checks{weight=2}  [*]
+- <bot checks>
+
++ [*] ordenes{weight=2}  [*]
+- <bot ordenes>
+
++ [*] pago{weight=2}  [*]
+- <bot pago>
+
++ [*] recibida{weight=2}  [*]
+- <bot recibida>
+
++ [*] cheques{weight=2}  [*]
+- <bot cheques>
+
++ [*] exterior{weight=2}  [*]
+- <bot exterior>
+
++ [*] internacional{weight=2}  [*]
+- <bot internaciona>
+
++ [*] travellers{weight=2}  [*]
+- <bot travellers>
+
++ [*] (pagina web|web|pagina) [*]
+- Buena si deseas ver nuestra pagina web nos puedes visitar en\n
+^ https://www.bbva.pe/\n
+
++ [*] (comisiones|todas) [*]
+- Las comisiones son las siguientes: \n
+^ - Comisión por constancia del cliente\n
+^ - Comisión por transferencia\n
+^ - Comisión por mensajes Swift\n
+^ - Comisión por órdenes de pago recibida del exterior\n
+^ - Comisión por carta de presentación\n
+^ - Comisión por servicio de custodia internacional\n
+^ - Comisión para compra con Travellers Checks\n
+^ - Comisión para depósitos de cheques y travellers del exterior\n
+
++ [*] (hola|como estas|que tal|buenos dias|buenas tardes|buenas noches) [*]
+- Hola, Soy el BBVAbot, cuál de las siguientes informaciones le puedo ofrecer?\n
+^ - Miembros de directorio\n
+^ - Código de conducta\n
+^ - Página Web\n
+^ - Atención al cliente\n
+^ - Comisión por constancia del cliente\n
+^ - Comisión por transferencia\n
+^ - Comisión por mensajes Swift\n
+^ - Comisión por órdenes de pago recibida del exterior\n
+^ - Comisión por carta de presentación\n
+^ - Comisión por servicio de custodia internacional\n
+^ - Comisión para compra con Travellers Checks\n
+^ - Comisión para depósitos de cheques y travellers del exterior\n
+
++ [*] (miembros|directorio) [*]
+- Miembros del directorio\n
+^ - Presidente del Directorio: Alex Paul Gastón Fort Brescia\n
+^ - Primer Vicepresidente: Pedro Manuel Juan Brescia Monreyra\n
+^ - Segundo Vicepresidente del Directorio: Pablo Alfonso Pastor Muñoz\n
+^ - Gerente General: Fernando Eguiluz Lozano\n
+
++ [*] (gracias) [*]
+- Un placer ayudarle recuerden que hay mas informacion en nuestra pagina Web
+^ - https://www.bbva.pe/
+
++ *
+- error
