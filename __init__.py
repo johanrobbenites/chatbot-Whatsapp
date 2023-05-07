@@ -26,7 +26,7 @@ def webhook_whatsapp():
         if(respuesta1=="error"):
           # Uso de ChapGPT en Python
           import openai
-          openai.api_key = "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"
+          openai.api_key = "tokem"
           model_engine = "text-davinci-003"
           prompt = mensaje
           completion = openai.Completion.create(engine=model_engine,
