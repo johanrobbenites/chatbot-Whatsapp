@@ -1,6 +1,6 @@
 import openai
 # Indica el API Key
-openai.api_key = "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"
+openai.api_key = "token"
 # Uso de ChapGPT en Python
 model_engine = "text-davinci-003"
 prompt = "cual es el mejor banco del peru"
